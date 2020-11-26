@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="..\css\style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <a href="/">main</a>
+        <a href="/register">register</a>
+        <a href="/login">login</a>
+        <a href="/admin">admin</a>
+    </div>
+    </div>
+    <p class="backgroundtext">register page</p>
+    <br>
+    <form action="/register" method="POST" class="srodek">
+        <label for="login">login:</label><input type="text" name="login" class="srodek2" required>
+        <br>
+        <br>
+        <label for="password">password:</label><input type="password" name="password" class="srodek2" required>
+        <br>
+        <br>
+        <label for="wiek">wiek:</label><select name="wiek" class="srodek2" required>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+        </select>
+        <br>
+        <br>
+        <label for="uczen">uczeń?:</label><input type="checkbox" value="checked" name="uczen" class="srodek2" checked>
+        <br>
+        <br>
+        <label for="plec">płeć:</label>
+        <input type="radio" value="K" name="plec" id="kobieta" class="srodek2" checked><label for="kobieta"
+            style="position: absolute; left: 815px;">K</label>
+        <input type="radio" value="M" name="plec" id="mezczyzna" style="position: absolute; left: 840px;"><label
+            for="mezczyzna" style="position: absolute; left: 855px;">M</label>
+        <br>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
